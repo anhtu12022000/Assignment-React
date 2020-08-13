@@ -1,0 +1,48 @@
+export default {
+    products: [
+        {
+            _id: "1",
+            name: "Slim Shirt",
+            category: "Shirts",
+            description: "ádsadsadsadasdsa",
+            image: "/images/d1.jpg",
+            price: 60,
+            brand: "Nike",
+            rating: 4.5,
+            numReviews: 11,
+        },
+        {
+            _id: "2",
+            name: "Slim Shirt7",
+            category: "Shirts",
+            description: "ádsadsadsadasdsa",
+            image: "/images/d1.jpg",
+            price: 60,
+            brand: "Adidas",
+            rating: 4.5,
+            numReviews: 10,
+        },
+        {
+            _id: "3",
+            name: "Slim Shirt3",
+            category: "Shirts",
+            description: "ádsadsadsadasdsa",
+            image: "/images/d1.jpg",
+            price: 70,
+            brand: "Spacha",
+            rating: 4.5,
+            numReviews: 14,
+        },
+        {
+            _id: "4",
+            name: "Slim Shirt2",
+            category: "Shirts",
+            description: "ádsadsadsadasdsa",
+            image: "/images/d1.jpg",
+            price: 30,
+            brand: "Louis Vutun",
+            rating: 4.5,
+            numReviews: 30,
+        },
+    ]
+}

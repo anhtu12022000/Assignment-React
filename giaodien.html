@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Amazon</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+	
+	<script>
+		function openMenu () {
+			document.querySelector(".sidebar").classList.remove("close");
+			document.querySelector(".sidebar").classList.add("open");
+		}
+
+		function closeMenu () {
+			document.querySelector(".sidebar").classList.remove("open");
+			document.querySelector(".sidebar").classList.add("close");
+		}
+
+		const buttons = document.querySelectorAll(".sidebar-close");
+		buttons.forEach(btn => {
+			btn.addEventListener('click', function (e) {
+				let x = e.clientX - e.target.offsetLeft;
+				let y = e.clienty - e.target.offsetTop;
+
+				let ripples = document.createElement('span');
+				ripples.style.left = x + 'px';
+				ripples.style.top = y + 'px';
+				this.appendChild(ripples);
+
+				setTimeout(function() {
+					ripples.remove();
+				}, 1000);
+			})
+		})
+	</script>
+</body>
+</html>

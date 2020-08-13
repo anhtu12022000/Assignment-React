@@ -1,0 +1,17 @@
+[0719/103537.630:ERROR:process_info.cc(359)] UncheckedAllocate
+[0719/103537.630:ERROR:process_info.cc(359)] UncheckedAllocate
+[0723/220344.612:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0723/221344.635:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0723/221344.635:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0723/221846.675:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0723/223349.040:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0723/224849.274:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0723/225426.721:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0729/084219.646:ERROR:process_info.cc(359)] UncheckedAllocate
+[0729/084239.908:ERROR:process_info.cc(359)] UncheckedAllocate
+[0802/212840.363:ERROR:process_info.cc(359)] UncheckedAllocate
+[0810/084651.013:ERROR:minidumpwritedump_with_crashpad_info.cc(435)] Failed to call MiniDumpWriteDump: Not enough memory resources are available to process this command. (0x80070008)
+[0810/084651.596:ERROR:process_info.cc(359)] UncheckedAllocate
+[0810/084651.606:ERROR:minidumpwritedump_with_crashpad_info.cc(592)] Failed to write minidump file
+[0810/084651.606:ERROR:crash_report_exception_handler.cc(132)] TryMiniDumpWriteDumpWithCrashpadInfo failed
+[0810/084651.613:ERROR:process_info.cc(359)] UncheckedAllocate
